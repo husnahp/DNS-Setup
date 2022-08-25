@@ -1,7 +1,7 @@
 # DNS-Setup
 root@saturn:~# cd /etc/bind
 root@saturn:/etc/bind# systemctl status named
-● named.service - BIND Domain Name Server
+named.service - BIND Domain Name Server
      Loaded: loaded (/lib/systemd/system/named.service; enabled; vendor preset:>
      Active: active (running) since Wed 2022-08-24 15:40:40 UTC; 3min 46s ago
        Docs: man:named(8)
@@ -64,7 +64,7 @@ root@saturn:/etc/bind# cat example.com
 husnaHP   IN   A   192.168.0.115
 root@saturn:/etc/bind# systemctl start named
 root@saturn:/etc/bind# systemctl status named
-● named.service - BIND Domain Name Server
+named.service - BIND Domain Name Server
      Loaded: loaded (/lib/systemd/system/named.service; disabled; vendor preset>
      Active: active (running) since Wed 2022-08-24 15:55:21 UTC; 7s ago
        Docs: man:named(8)
